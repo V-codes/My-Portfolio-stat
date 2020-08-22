@@ -1,0 +1,160 @@
+/***** BODY *****/
+body{
+  font-family: 'red rose', cursive;
+  background-color: #ebe8e3;
+  color: black;
+}
+
+/***** GRID *****/
+.full-width{
+  width: 1300px;
+
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width{
+  width: 600px;
+  float:left;
+}
+.third-width{
+  width: 420px;
+  float:left;
+}
+
+/***** HEADER *****/
+#header{
+  background-image: url("../img/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+h3{
+  font-size: 18px;
+  color: #DC3964;
+  font-family: 'red rose', cursive;
+}
+#header h2{
+  font-family: 'BioRhyme', serif;
+  color: #335C67;
+  font-size: 62px;
+  width: 800px;
+  line-height: 80px;
+  padding-left: 200px;
+  padding-top: 15px;
+}
+h2 span{
+  color: #DC3964;
+}
+
+nav {
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: 18px;
+    color: #335C67;
+    padding-left: 80px;
+}
+
+/***** WORK *****/
+#work{
+  background-color: #ebe8e3;
+  margin-left: 150px;
+}
+h2{
+  font-size: 36px;
+  text-align: center;
+  color: #DC3964;
+
+}
+.image{
+  border: 1px solid #b7b7b7;
+  margin: 30px;
+  margin-bottom: 5px;
+}
+.rogue {
+  margin-left: 50px;
+  margin: 50px;
+  padding-top: 80px;
+}
+.jubilee{
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 120px;
+
+}
+.recipe{
+  margin-left: 50px;
+  margin: 50px;
+  padding-top: 80px;
+}
+
+
+#work .half-width{
+  box-sizing: border-box;
+}
+h5{
+  font-weight: bold;
+}
+
+
+/***** ABOUT *****/
+#about{
+  background-image: url("../img/about-img.png");
+  height: 600px;
+  background-position: center;
+  width: 1450px;
+}
+#about h2{
+  padding-top: 20px;
+  font-size: 36px;
+}
+.about-me{
+  box-sizing: border-box;
+  padding-left: 200px;
+  font-size: 18px;
+}
+#about .image{
+  margin-left: 200px;
+  margin-bottom: 150px;
+  border: 1px solid #335C67;
+}
+h4 span{
+  color: #DC3964;
+
+}
+/***** CONTACT *****/
+#contact{
+  background-color: #EFC7BD;
+  text-align: center;
+  text-decoration: none;
+  width: 1450px;
+}
+#contact .full-width{
+  padding-bottom: 30px;
+
+}
+#contact a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#contact .pe-social{
+  display: inline-block;
+  font-size: 25px;
+}
+#contact h4{
+  font-weight: bold;
+  line-height: 10px;
+}
+#contact .third-width{
+  text-align: center;
+}
+/***** FOOTER *****/
+#footer{
+  text-align: center;
+}
